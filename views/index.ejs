@@ -8,6 +8,9 @@
 </head>
 <body>
     <h1 id="heading">Quotes</h1>
+    <div style="margin-bottom: 15px;">
+    <a  href="https://quotes-blog.onrender.com/posts/new">New Post</a> <br>
+    </div>
     <% for(post of posts){ %>
         <div class="post">
             <h3 class="user">@<%= post.username %></h3>
@@ -21,7 +24,6 @@
         <% } %>
         <br>
         <br>
-        <a href="https://quotes-blog.onrender.com/posts/new">New Post</a>
         <!-- <script src="./app.js"></script> -->
 </body>
 </html>
