@@ -1,0 +1,34 @@
+#heading{
+    color: maroon;
+}
+
+.post{
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.user{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    
+    border: 2px solid blue;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+form{
+    display: inline;
+}
+#delete{
+    background: none;
+    border : 0px;
+}
+#delete:hover{
+    cursor: pointer;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
