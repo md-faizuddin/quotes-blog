@@ -33,6 +33,11 @@ let posts = [
         username : "Ralph Abernathy",
         content : "The industrial landscape is already littered with remains of once successful companies that could not adapt their strategic vision to altered conditions of competition."
     },
+    {
+        id: uuidv4(),
+        username : "Arthur C. Clarke",
+        content : "Any sufficiently advanced technology is equivalent to magic."
+    }
 ]
 
 // Showing all posts
