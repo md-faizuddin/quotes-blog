@@ -12,8 +12,8 @@
         <div class="post">
             <h3 class="user">@<%= post.username %></h3>
             <h4 class="content"><%= post.content %></h4>
-            <a href="http://localhost:8080/posts/<%=post.id%>">View Post</a> &nbsp;
-            <a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit Post</a>
+            <a href="https://quotes-blog.onrender.com/posts/<%=post.id%>">View Post</a> &nbsp;
+            <a href="https://quotes-blog.onrender.com/posts/<%=post.id%>/edit">Edit Post</a>
             <form method="post" action="/posts/<%= post.id %>?_method=DELETE"><BUtton id="delete"> <img src="./assets/delete.png" alt="delete btn"></BUtton></form>
             
         </div>
@@ -21,7 +21,7 @@
         <% } %>
         <br>
         <br>
-        <a href="http://localhost:8080/posts/new">New Post</a>
+        <a href="https://quotes-blog.onrender.com/posts/new">New Post</a>
         <!-- <script src="./app.js"></script> -->
 </body>
 </html>
