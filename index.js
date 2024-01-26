@@ -53,7 +53,7 @@ app.get("/posts/new",(req, res)=>{
 app.post("/posts", (req,res)=>{
     let id = uuidv4();
     let {username , content} = req.body;
-    posts.push({username, content , id});
+    posts.unshift({username, content , id});
     res.redirect("/posts");
 });
 
